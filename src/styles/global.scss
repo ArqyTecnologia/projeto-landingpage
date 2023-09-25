@@ -1,0 +1,44 @@
+:root{
+  --primary-normal: #06121e;
+  --primary-dark: #040f1a;
+  --primary-light: #0c2135;
+
+  --secundary-normal: #090d11;
+  --secundary-dark: ;
+
+}
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+//@import url("partials/_colors.scss");
+
+body{
+  font-family: 'Sora', sans-serif;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-color: var(--primary-normal);
+}
+
+button{
+  cursor: pointer;
+  font-family: "Sora", sans-serif;
+}
+
+svg{
+  width: 100%;
+}
+
+img{
+  width: 100%;
+}
+
+a{
+  cursor: pointer;
+  text-decoration: none;
+}
